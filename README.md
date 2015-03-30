@@ -1,2 +1,2 @@
 # realm-test
-Working on reproducing Realm crash in Release build
+Release builds crash on at least iPhone 6 Plus.
