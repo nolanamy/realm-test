@@ -14,9 +14,7 @@
 
 + (NSDictionary *)defaultPropertyValues
 {
-    return @{
-             @"uuid":CFBridgingRelease(CFUUIDCreateString(NULL, CFUUIDCreate(NULL)))
-             };
+    return @{ @"uuid": [[NSUUID UUID] UUIDString] };
 }
 
 + (RealmObject *)createRealmObjectOfType:(Class)entityType {
