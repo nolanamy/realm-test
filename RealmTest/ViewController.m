@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#import "RealmObject.h"
+#import "PlickersObject.h"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [[RLMRealm defaultRealm] beginWriteTransaction];
+    [RealmObject createRealmObjectOfType:[PlickersObject class]];
+    [[RLMRealm defaultRealm] commitWriteTransaction];
 }
 
 - (void)didReceiveMemoryWarning {

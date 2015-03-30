@@ -15,6 +15,8 @@
 		F3CCDE2D1AC93DF400747EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CCDE2C1AC93DF400747EC6 /* Images.xcassets */; };
 		F3CCDE301AC93DF400747EC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CCDE2E1AC93DF400747EC6 /* LaunchScreen.xib */; };
 		F3CCDE3C1AC93DF400747EC6 /* RealmTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CCDE3B1AC93DF400747EC6 /* RealmTestTests.m */; };
+		F3CCDE4B1AC93FBA00747EC6 /* PlickersObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CCDE451AC93FBA00747EC6 /* PlickersObject.m */; };
+		F3CCDE4C1AC93FBA00747EC6 /* RealmObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CCDE471AC93FBA00747EC6 /* RealmObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		F3CCDE351AC93DF400747EC6 /* RealmTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CCDE3A1AC93DF400747EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CCDE3B1AC93DF400747EC6 /* RealmTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmTestTests.m; sourceTree = "<group>"; };
+		F3CCDE451AC93FBA00747EC6 /* PlickersObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersObject.m; path = RealmTest/PlickersObject.m; sourceTree = "<group>"; };
+		F3CCDE461AC93FBA00747EC6 /* RealmObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealmObject.h; path = RealmTest/RealmObject.h; sourceTree = "<group>"; };
+		F3CCDE471AC93FBA00747EC6 /* RealmObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RealmObject.m; path = RealmTest/RealmObject.m; sourceTree = "<group>"; };
+		F3CCDE4A1AC93FBA00747EC6 /* PlickersObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersObject.h; path = RealmTest/PlickersObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		F3CCDE131AC93DF400747EC6 = {
 			isa = PBXGroup;
 			children = (
+				F3CCDE4E1AC93FC400747EC6 /* Models */,
 				F3CCDE1E1AC93DF400747EC6 /* RealmTest */,
 				F3CCDE381AC93DF400747EC6 /* RealmTestTests */,
 				F3CCDE1D1AC93DF400747EC6 /* Products */,
@@ -141,6 +148,17 @@
 				F3CCDE3A1AC93DF400747EC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3CCDE4E1AC93FC400747EC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3CCDE451AC93FBA00747EC6 /* PlickersObject.m */,
+				F3CCDE461AC93FBA00747EC6 /* RealmObject.h */,
+				F3CCDE471AC93FBA00747EC6 /* RealmObject.m */,
+				F3CCDE4A1AC93FBA00747EC6 /* PlickersObject.h */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +299,8 @@
 				F3CCDE281AC93DF400747EC6 /* ViewController.m in Sources */,
 				F3CCDE251AC93DF400747EC6 /* AppDelegate.m in Sources */,
 				F3CCDE221AC93DF400747EC6 /* main.m in Sources */,
+				F3CCDE4C1AC93FBA00747EC6 /* RealmObject.m in Sources */,
+				F3CCDE4B1AC93FBA00747EC6 /* PlickersObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
